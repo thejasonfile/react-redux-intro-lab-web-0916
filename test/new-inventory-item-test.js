@@ -2,7 +2,7 @@ import React from 'react'
 import { shallow, mount } from 'enzyme'
 import expect, { createSpy, spyOn, isSpy } from 'expect'
 import ReactTestUtils from 'react-addons-test-utils'
-import NewInventoryItem from '../src/NewInventoryItem'
+import NewInventoryItem from '../src/components/NewInventoryItem'
 
 
 describe('<NewInventoryItem/>', function () {

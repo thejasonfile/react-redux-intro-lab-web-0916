@@ -2,7 +2,7 @@ import React from 'react'
 import { shallow, mount} from 'enzyme'
 import expect, { createSpy, spyOn, isSpy } from 'expect'
 import ReactTestUtils from 'react-addons-test-utils'
-import App from '../src/App'
+import App from '../src/components/App'
 import InventoryList from '../src/InventoryList'
 
 import configureStore from 'redux-mock-store';
