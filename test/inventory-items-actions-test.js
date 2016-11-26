@@ -1,4 +1,5 @@
-import * as actions from '../src/actions/inventoryItemsActions'
+import getInventoryListItems from '../src/actions/getInventoryListItems'
+import addInventoryListItems from '../src/actions/addInventoryListItems'
 
 describe('actions', () => {
   it('should create an action to get all inventory items', () => {
